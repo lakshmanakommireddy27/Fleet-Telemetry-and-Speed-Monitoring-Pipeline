@@ -1,0 +1,5 @@
+# Sử dụng image gốc từ bitnami/spark
+FROM bitnami/spark:latest
+
+# Cập nhật pip và cài đặt dotenv
+RUN pip install --upgrade pip && pip install python-dotenv
